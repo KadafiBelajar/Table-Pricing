@@ -91,6 +91,15 @@ main {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15)
 }
 
+.pricing-card button:hover {
+    background-color: rgb(150, 220, 46);
+    cursor: pointer;
+}
+
+.pricing-card button:active {
+    background-color: rgb(107, 158, 29);
+}
+
 @media screen and (max-width: 768px) {
     .pricing-wrapper {
         flex-direction: column;
